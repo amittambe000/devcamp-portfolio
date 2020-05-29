@@ -53,3 +53,5 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'bootstrap', '~> 4.0.0'
 
 gem 'jquery-rails'
+
+gem 'view_tool_nonsense_tester', git: 'https://github.com/amittambe000/ViewTool_NonsenseTester'
