@@ -55,3 +55,5 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 
 gem 'view_tool_nonsense_tester', git: 'https://github.com/amittambe000/ViewTool_NonsenseTester'
+
+gem 'petergate', '~> 1.6', '>= 1.6.3'
