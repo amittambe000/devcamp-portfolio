@@ -1,2 +1,2 @@
 <h1>New portfolio</h1>
-<%=render 'form',portfolios_item: @portfolio_item %>
+<%=render 'form',portfolios_item: @portfolio_item if logged_in?(:site_admin)%>
