@@ -14,11 +14,13 @@
   </head>
 
   <body>
+
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
-    <%= render "shared/application_nav",location: "top" %>
+    <%= render "shared/application_nav" %>
     </header>
       <%= yield %>
+    <%= render "shared/application_footer" %>
   </div>
   </body>
 </html>
