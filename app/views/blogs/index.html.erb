@@ -1,4 +1,4 @@
-
+<%= link_to 'Write New Blog',new_blog_path if logged_in?(:site_admin) %>
   <%= render @blogs %>
 <nav class="blog-pagination">
   <a class="btn btn-outline-primary" href="#">Older</a>
