@@ -18,6 +18,6 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    ViewToolNonsenseTester::Renderer.copyright '&copy; 2020 | Amit Tambe','All rights reserved'
+    ViewToolNonsenseTester::Renderer.copyright 'Amit Tambe|','All rights reserved'
   end
 end
