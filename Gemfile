@@ -59,4 +59,5 @@ gem 'view_tool_nonsense_tester', git: 'https://github.com/amittambe000/ViewTool_
 gem 'petergate', '~> 1.6', '>= 1.6.3'
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
 gem 'kaminari', :git => 'https://github.com/kaminari/kaminari'
-gem 'jquery-rails'
+
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
