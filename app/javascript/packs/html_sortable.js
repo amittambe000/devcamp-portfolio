@@ -17,6 +17,7 @@ var sortable = (function () {
      * @param {any} value
      * @return {*}
      */
+
     function addData(element, key, value) {
         if (value === undefined) {
             return element && element.h5s && element.h5s.data && element.h5s.data[key];
@@ -1211,5 +1212,7 @@ var sortable = (function () {
     };
 
     return sortable;
+
+
 
 }());

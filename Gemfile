@@ -61,3 +61,4 @@ gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
 gem 'kaminari', :git => 'https://github.com/kaminari/kaminari'
 
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+gem 'coffee-rails', '~> 5.0'
